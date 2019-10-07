@@ -51,8 +51,8 @@ p, .scores {
 
 #newsStories, #teamRankings {
   background-color: #fff;
-  padding: 30px;
-  width: 70%;
+  padding: 2vw;
+  width: 70vw;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1%;
@@ -71,9 +71,12 @@ p, .scores {
 
 .story {
   display: flex;
-  width: 300px;
-  max-width: 33.33%;
-  margin-right: 90px;
+  width: 15vw;
+  max-width: 18vw !important;
+  margin-right: 9vw;
+  align-items: center;
+  align-content: center;
+  vertical-align: middle;
 }
 
 /* News images */
@@ -106,14 +109,15 @@ p, .scores {
 
 
 .story h3 {
-  width: 250px;
+  width: 15vw;
+  max-width: 20vw !important;
   margin-bottom: 2%;
 }
 
 
 .storyFlexbox p {
-  max-width: 260px;
-  
+  max-width: 20vw !important;
+  overflow: inherit;
 }
 
 
