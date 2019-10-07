@@ -10,7 +10,8 @@ body {
 }
 
 .headings {
-  font-size: 24px;
+  /* Font size using vertical width will be responisve to the screen 1.2vw is eual to 24px */
+  font-size: 1.2vw;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #191919;
@@ -18,32 +19,29 @@ body {
 }
 
 .newsTitles {
-  font-size: 16px;
+  /* Font size using vertical width will be responisve to the screen 0.9vw is eual to 16px */
+  font-size: 0.9vw;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #191919;
 }
 
 .teamNames, .points {
-  font-size: 13px;
+  /* Font size using vertical width will be responisve to the screen 0.7vw is eual to 13px */
+  font-size: 0.7vw;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #191919;
 }
 
-p {
-  font-size: 13px;
+p, .scores {
+  /* Font size using vertical width will be responisve to the screen 0.7vw is eual to 13px */
+  font-size: 0.7vw;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #787878;
 }
 
-th {
-  font-size: 13px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  color: #777;
-}
 
 .content {
   width: 95%;
@@ -51,16 +49,19 @@ th {
   margin-right:auto;
 }
 
-#newsStories {
+#newsStories, #teamRankings {
   background-color: #fff;
   padding: 30px;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1%;
 }
 
 #newsStoriesFlex {
   display: inline-flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 #newsStoriesFlex div {
@@ -79,10 +80,10 @@ th {
 .storyImg {
   flex: none !important;
   background-repeat: no-repeat;
-  background-size: 120px;
+  background-size: cover;
   background-position: center; 
   width: 5vw !important;
-  height: 9vh !important;
+  height: 10vh !important;
   border: 1px inset #555;
   border-radius: 3px;
   margin-right: 5%;

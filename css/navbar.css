@@ -18,16 +18,19 @@
   padding: 16px 18px;
 }
 
-#navbar a:hover {
-  color: #333;
-  background-color: rgba(230, 230, 230, 0.8);
-  transition: .35s;
-}
+
 
 #logout {float: right !important;}
 
 .current {
-  background-color: #555;
-  color: #e7e7e7;
+  background-color: #555 !important;
+  color: #e7e7e7 !important;
+  transition: .35s !important;
+}
+
+#navbar a:hover, .current:hover {
+  color: #333 !important;
+  background-color: rgba(230, 230, 230, 0.8) !important; 
   transition: .35s;
 }
+

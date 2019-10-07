@@ -1,0 +1,29 @@
+table {
+  border-collapse:separate; 
+  border-spacing: 0 0.8em;
+  width: 100%;
+}
+
+th {
+  /* Font size using vertical width will be responisve to the screen 0.65vw is eual to 12px */
+  font-size: 0.65vw; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: #191919;
+  text-transform: uppercase;
+  padding-bottom: 1%;
+  text-align: left;
+}
+
+
+.teamNames {
+  align-items:center;
+}
+
+.teamNames img {
+  width: 4%;
+  margin-right: 3%;
+    vertical-align: middle;
+
+}
+
