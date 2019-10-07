@@ -18,6 +18,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
     
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/navbar.css">
 
   <title>CSS test - Gelmis Bartulis</title>
     
@@ -25,12 +26,57 @@
   <body>
 
    <div id="navbar">
-    <a href="#home">Home</a>
+    <a href="#home" class="current">Home</a>
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
+    <a href="#logout" id="logout">Logout</a>
   </div> 
-  <h1>This is a Heading</h1>
-  <p>This is a paragraph.</p>
+    
+    <div class="content">
+ 
+      <div id="newsStories">
+        <h1 id="heading">News stories</h1>
+        
+        <div id="newsStoriesFlex">
+          <div id="story1" class="story">
+            <img src="img/News/1.jpg" alt="News story 1">
+            <div id="storyFlexbox">
+              <h3 class="newsTitles">Connor offered Gaethje Fight</h3>
+              <p>
+                Conor McGregor knows that he has to get a win under his belt if he is to set up another shot at the lightweight title    
+              </p>
+            </div>
+          </div>
+          
+          <div id="story2" class="story">
+            <img src="img/News/2.jpg" alt="News story 2">
+            <div class="storyFlexbox">
+              <h3 class="newsTitles">Chelsea V Man U Preview</h3>
+              <p>
+                Two of the biggest clubs left in the FA Cup are set to go head-to-head as Chelsea prepare to host Manchester get ready to rumble at...
+              </p>
+            </div>
+          </div>
+          
+          
+          <div id="story3" class="story">
+            <img src="img/News/3.jpg" alt="News story 1">
+            <div class="storyFlexbox">
+              <h3 class="newsTitles">Tiger Woods wins the  Masters</h3>
+              <p>
+                Improbable. Inspirational. Thrilling. Historic. Countless words have been written about Woods' fifth Masters...
+              </p>
+            </div>
+          </div>
+          
+          
+        </div>
+        
+      </div>
+    
+    
+    </div>
+
 
   </body>
 </html>
